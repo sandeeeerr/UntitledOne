@@ -1,3 +1,3 @@
-<div>
-    <img class="w-auto h-40 mx-auto" src="{{ asset('images/logo.png') }}" alt="logo">
+<div class="text-xl">
+  Untitled<span class="text-primary-500 font-medium">One</span>
 </div>

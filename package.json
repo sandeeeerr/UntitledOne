@@ -1,28 +1,22 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "build": "vite build",
-        "dev": "vite"
-    },
-    "devDependencies": {
-        "@popperjs/core": "^2.11.6",
-        "@tailwindcss/forms": "^0.5",
-        "@tailwindcss/typography": "^0.5",
-        "@vitejs/plugin-vue": "^4.5.0",
-        "autoprefixer": "^10.4.20",
-        "bootstrap": "^5.3.3",
-        "concurrently": "^9.0.1",
-        "laravel-vite-plugin": "^1.0",
-        "postcss": "^8.4.47",
-        "resolve-url-loader": "^5.0.0",
-        "sass": "^1.81.1",
-        "sass-loader": "^8.0",
-        "tailwindcss": "^3.4.13",
-        "vite": "^5.0",
-        "vue": "^3.2.37"
-    },
-    "dependencies": {
-        "axios": "^1.7.8"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@ryangjchandler/alpine-tooltip": "^2.0.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "cropperjs": "^1.6.1",
+    "laravel-vite-plugin": "^1.0.1",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11"
+  },
+  "dependencies": {
+    "tippy.js": "^6.3.7"
+  }
 }
